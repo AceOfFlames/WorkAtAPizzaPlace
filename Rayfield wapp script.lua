@@ -461,7 +461,7 @@ local Section = Tab6:CreateSection("This Script")
 local Button = Tab6:CreateButton({
    Name = "ReExecute Script",
    Callback = function()
-      print("not available yet")
+      loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
    end,
 })
 
